@@ -13,7 +13,7 @@ const Signup = (props)=> {
       if(credentials.password !== credentials.cpassword){
         return props.showAlert("Invalid Credentials", "danger")
       }
-      const response = await fetch('http://localhost:5000/api/auth/CreateUser', {
+      const response = await fetch('https://inotes-backend-tm49.onrender.com/api/auth/CreateUser', {
           method: "POST",
           headers: {
               "Content-Type": "application/json",
