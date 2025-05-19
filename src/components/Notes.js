@@ -128,7 +128,7 @@ function Notes(props) {
                 type="button"
                 className="btn btn-primary"
                 onClick={handleClick}
-                disabled={note.etitle.length<5 || note.edescription.length<5 || note.etag.length<5}
+                disabled={note.etitle.length<5 || note.edescription.length<5}
               >
                 Update Note
               </button>

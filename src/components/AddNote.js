@@ -65,8 +65,7 @@ function AddNote(props) {
           <button
             disabled={
               note.title.length < 5 ||
-              note.description.length < 5 ||
-              note.tag.length < 5
+              note.description.length < 5 
             }
             type="submit"
             className="btn btn-primary"

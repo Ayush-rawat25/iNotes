@@ -1,5 +1,6 @@
 const mongoose=require('mongoose');
-const mongoURL="mongodb://localhost:27017/inotebook";
+const mongoURL = "mongodb+srv://rawatayush004:4185DA3UmVdGQOdf@cluster0.p9cbgy0.mongodb.net/"; 
+
 
 const connectToMongo = async()=>{
     try{
